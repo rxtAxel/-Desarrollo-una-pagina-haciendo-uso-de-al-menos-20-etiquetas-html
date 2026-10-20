@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Informativa,</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Pagina Web De Axel</h1>
+        <p>Estoy aprendiendo a programar con HTML y CSS.</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#hobbies">Mis Hobbies</a></li>
+                <li><a href="#horario">Horario</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Sobre mí</h2>
+            <article>
+                <p>Hola Mi Nombre es Axel, Actualmente soy estudiante de la Universidad UNAD y tambien trabajo.</p>
+                <p>Aprendí que <strong>la práctica constante</strong> y <b>son las claves principales para lograr</b> el éxito en cualquier meta profesional.</p>
+                
+                <img src="assets/perfil.jpg" alt="Foto de perfil">
+            </article>
+        </section>
+
+        <section id="hobbies">
+            <h2>Lo que me gusta hacer</h2>
+            <ul>
+                <li>Escribir código.</li>
+                <li>Jugar videojuegos.</li>
+                <li>Me Gusta mucho ver anime y peliculas.</li>
+                <li>Escuchar música.</li>
+            </ul>
+        </section>
+
+        <section id="horario">
+            <h2>Mi horario de clases</h2>
+            <table>
+                <tr>
+                    <th>Día</th>
+                    <th>Materia</th>
+                    <th>Hora</th>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Desarrollo Web</td>
+                    <td>8:00 AM</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>Bases de Datos</td>
+                    <td>10:00 AM</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Mándame un mensaje</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Tu nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí..." required>
+
+                <label for="email">Tu correo:</label>
+                <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Mi Pagina Web De Axel</p>
+    </footer>
+
+</body>
+</html>
